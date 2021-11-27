@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CustomViewGroup</string>
+    <string name="writeHint">Написать...</string>
+    <string name="send_button">send_button</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

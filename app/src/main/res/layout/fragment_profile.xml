@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:layout_gravity="center_vertical"
+    tools:context=".fragments.ProfileFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+
+        android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/profileImage"
+        android:layout_marginTop="126sp"
+        android:layout_width="185sp"
+        android:layout_height="185sp"
+        android:background="@mipmap/ic_launcher" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="Kirill Rychkov"
+        android:id="@+id/userNameProfile"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In a meeting"
+            android:id="@+id/userStatus"
+            android:textSize="20sp"
+            android:textColor="#BCBCBC"
+            android:gravity="center_horizontal" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/userStatus"
+            android:text="online"
+            android:id="@+id/userActivity"
+            android:textSize="16sp"
+            android:layout_marginLeft="21sp"
+            android:textColor="#4AB54D"
+            android:gravity="center_horizontal" />
+    </RelativeLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log out"
+            android:textSize="20sp"
+            android:background="@drawable/background_button_logout"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="56sp"
+            android:paddingTop="14sp"
+            android:layout_marginTop="164sp"
+            android:paddingRight="56sp"
+            android:paddingBottom="14sp"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+</RelativeLayout>

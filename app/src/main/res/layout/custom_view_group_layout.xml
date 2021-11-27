@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"/>
+
+
+    <ImageView
+        android:id="@+id/userImage"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginRight="9dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кирилл Рычков"
+        android:paddingLeft="13dp"
+        android:paddingTop="8dp"
+        android:paddingRight="29dp"
+        android:paddingBottom="4dp"
+        android:textColor="#2A9D8F"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/userMes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="13dp"
+        android:paddingRight="7dp"
+        android:paddingBottom="20dp"
+        android:text="Привет! Что нам задали на БД? Можешь помочь, пожалуйста"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <com.example.customviewgroup.views.CustomFlexBoxLayout
+        android:id="@+id/customFlexBoxLayout"
+        android:layout_width="wrap_content"
+        android:paddingTop ="7dp"
+        android:layout_height="wrap_content">
+
+    </com.example.customviewgroup.views.CustomFlexBoxLayout>
+
+
+</merge>
